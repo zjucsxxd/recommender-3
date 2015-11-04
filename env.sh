@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=3rdparty/lib
