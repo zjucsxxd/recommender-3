@@ -1,0 +1,5 @@
+import os, sys
+import matplotlib as plt
+
+f = open('../../logs/exp1.log', 'r')
+

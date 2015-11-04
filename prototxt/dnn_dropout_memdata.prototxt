@@ -82,6 +82,15 @@ layers {
   top: "ip2"
 }
 layers {
+  name: "drop2"
+  type: DROPOUT
+  bottom: "ip2"
+  top: "ip2"
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+layers {
   name: "ip3"
   type: INNER_PRODUCT
   bottom: "ip2"
